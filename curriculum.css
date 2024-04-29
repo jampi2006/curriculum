@@ -3,38 +3,116 @@
     width:50%;
     background-color: rgb(214, 206, 192);
     margin-left: 25%;
-    }
+}
     
-    #borde {
-        position: absolute;
-        width: 48%;
-        height: 1280px;
-        border: solid 2px gray;
-        margin-left: 0.5%;
-        margin-top: 0.5%;
-    }
+#borde {
+    position: absolute;
+    width: 48%;
+    height: 1280px;
+    border: solid 2px rgb(0, 0, 0);
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+}
     
-    #nombre {
-        font-size: 70px;
-        text-align: center;
-    }
+#nombre {
+    font-size: 70px;
+    text-align: center;
+}
     
-    #trabajo {
-        text-align: center;
-        font-size: 39px;
-    }
-    
-    .iconos{
+#trabajo {
+    text-align: center;
+    font-size: 39px;
+}
+
+.iconos{
     display: grid;
     grid-template-columns:  10% 20% 10% 20% 10% 20%;
     margin-left: 10%;
-    }
-    .perso{
+}
+
+.titulo1{
     display: grid;
     margin-left: 20px;
-    }
-    .si{
-        display: grid;
-        grid-template-columns:  repeat(6,1fr);
-        margin-left: 10%;
-    }
+}
+
+.si{
+    display: grid;
+    grid-template-columns:  repeat(10,1fr);
+    margin-left: 10%;
+}
+
+hr{
+    height: 1px;
+    background-color:  rgb(0, 0, 0);
+}
+
+.circulo{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border-top: 20px solid rgb(255, 56, 56);
+    border-bottom: 20px solid rgb(255, 37, 37);
+    border-right: 20px solid rgb(255, 48, 48);
+    border-left: 20px solid rgb(176, 173, 173);
+}
+
+.circulo2{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border-top: 20px solid rgb(255, 56, 56);
+    border-bottom: 20px solid rgb(185, 178, 178);
+    border-right: 20px solid rgb(255, 48, 48);
+    border-left: 20px solid rgb(176, 173, 173);
+}
+
+.circulo3{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: transparent;
+    border-top: 20px solid rgb(255, 56, 56);
+    border-bottom: 20px solid rgb(255, 37, 37);
+    border-right: 20px solid rgb(255, 48, 48);
+    border-left: 20px solid rgb(255, 71, 71);
+}
+
+.circulo4{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border-top: 20px solid rgb(255, 56, 56);
+    border-bottom: 20px solid rgb(255, 37, 37);
+    border-right: 20px solid rgb(255, 45, 45);
+    border-left: 20px solid rgb(255, 65, 65);
+}
+
+.circulo5{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border-top: 20px solid rgb(255, 56, 56);
+    border-bottom: 20px solid rgb(255, 37, 37);
+    border-right: 20px solid rgb(255, 48, 48);
+    border-left: 20px solid rgb(255, 44, 44);
+}
+.tex{
+    margin-top: 10px;
+}
+.titulo2{
+    display: grid;
+    margin-left: 20px;
+}
+.titulo4{
+    display: grid;
+    margin-left: 20px;
+}
