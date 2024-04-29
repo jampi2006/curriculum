@@ -1,0 +1,40 @@
+.curriculum{
+    height:1300px;
+    width:50%;
+    background-color: rgb(214, 206, 192);
+    margin-left: 25%;
+    }
+    
+    #borde {
+        position: absolute;
+        width: 48%;
+        height: 1280px;
+        border: solid 2px gray;
+        margin-left: 0.5%;
+        margin-top: 0.5%;
+    }
+    
+    #nombre {
+        font-size: 70px;
+        text-align: center;
+    }
+    
+    #trabajo {
+        text-align: center;
+        font-size: 39px;
+    }
+    
+    .iconos{
+    display: grid;
+    grid-template-columns:  10% 20% 10% 20% 10% 20%;
+    margin-left: 10%;
+    }
+    .perso{
+    display: grid;
+    margin-left: 20px;
+    }
+    .si{
+        display: grid;
+        grid-template-columns:  repeat(6,1fr);
+        margin-left: 10%;
+    }
