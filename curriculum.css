@@ -2,7 +2,7 @@ body{
 background-color: rgb(255, 255, 255);   
 }
 .curriculum{
-    height:1690px;
+    height:1705px;
     width:50%;
     background-color: rgb(214, 206, 192);
     margin-left: 25%;
@@ -11,7 +11,7 @@ background-color: rgb(255, 255, 255);
 #borde {
     position: absolute;
     width: 48%;
-    height: 1680px;
+    height: 1690px;
     border: solid 2px rgb(0, 0, 0);
     margin-left: 0.5%;
     margin-top: 0.5%;
@@ -47,6 +47,7 @@ background-color: rgb(255, 255, 255);
 hr{
     height: 1px;
     background-color:  rgb(0, 0, 0);
+    width: 97%;
 }
 
 .circulo{
@@ -54,10 +55,10 @@ hr{
     width: 40px;
     text-align: center;
     border-radius: 50%;
-    background-color: transparent;
     border-top: 20px solid rgb(255, 56, 56);
-    border-bottom: 20px solid rgb(255, 37, 37);
-    border-right: 20px solid rgb(255, 48, 48);
+    border-bottom: 20px solid rgb(255, 56, 56);
+    border-right: 20px solid rgb(255, 56, 56);
+    border-left: 20px solid rgb(255, 56, 56);
     border-left: 20px solid rgb(176, 173, 173);
 }
 
@@ -70,7 +71,7 @@ hr{
     border-top: 20px solid rgb(255, 56, 56);
     border-bottom: 20px solid rgb(185, 178, 178);
     border-right: 20px solid rgb(255, 48, 48);
-    border-left: 20px solid rgb(176, 173, 173);
+    border-left: 20px solid rgb(185, 178, 178);
 }
 
 .circulo3{
@@ -80,9 +81,9 @@ hr{
     text-align: center;
     background-color: transparent;
     border-top: 20px solid rgb(255, 56, 56);
-    border-bottom: 20px solid rgb(255, 37, 37);
-    border-right: 20px solid rgb(255, 48, 48);
-    border-left: 20px solid rgb(255, 71, 71);
+    border-bottom: 20px solid rgb(255, 56, 56);
+    border-right: 20px solid rgb(255, 56, 56);
+    border-left: 20px solid rgb(255, 56, 56);
 }
 
 .circulo4{
@@ -92,9 +93,9 @@ hr{
     border-radius: 50%;
     background-color: transparent;
     border-top: 20px solid rgb(255, 56, 56);
-    border-bottom: 20px solid rgb(255, 37, 37);
-    border-right: 20px solid rgb(255, 45, 45);
-    border-left: 20px solid rgb(255, 65, 65);
+    border-bottom: 20px solid rgb(255, 56, 56);
+    border-right: 20px solid rgb(255, 56, 56);
+    border-left: 20px solid rgb(255, 56, 56);
 }
 
 .circulo5{
@@ -104,9 +105,9 @@ hr{
     border-radius: 50%;
     background-color: transparent;
     border-top: 20px solid rgb(255, 56, 56);
-    border-bottom: 20px solid rgb(255, 37, 37);
-    border-right: 20px solid rgb(255, 48, 48);
-    border-left: 20px solid rgb(255, 44, 44);
+    border-bottom: 20px solid rgb(255, 56, 56);
+    border-right: 20px solid rgb(255, 56, 56);
+    border-left: 20px solid rgb(255, 56, 56);
 }
 .tex{
     margin-top: 10px;
@@ -132,19 +133,51 @@ hr{
     display: grid;
     margin-left: 30px;
 }
-.img{
-    object-fit: cover;
-
+.img1{
+    margin-left: 50px;
+    height: 150%;
+    width: 70%;
 }
 
 .container2{
-    border-right: 3px solid black;
     display: grid;
+    grid-template-columns: 100% 60%;
+    border-right: 3px solid black;
     margin-right: 50%;
+
 
     
 }
 .alinear{
     display: grid;
-    grid-template-columns: 80px 80px 80px 80px ;
+    grid-template-columns: 70px 70px 70px 70px ;
+    padding: 8px;
+}
+#pipi{
+text-align: center;
+}
+
+.link2{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.link3{
+text-decoration: none;
+color: rgb(0, 0, 0);
+position: relative;
+}
+.fin{
+    margin-left: 90px;
+    margin-top: 50px;
+}
+button{
+background-color: rgb(171, 242, 255);
+position: relative;
+}
+
+.fin2{
+    margin-left: 95px;
+    margin-top: 30px;
 }
